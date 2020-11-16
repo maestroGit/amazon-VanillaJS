@@ -12,6 +12,10 @@ body {
     margin: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -64,11 +68,12 @@ body {
     justify-content: space-between;
 }
 
-.products ul {
-    list-style-type: none;
+.products-list a {
+    text-decoration: none;
+    list-style: none;
 }
 
-.products li {
+.product li {
     flex: 0 1 10rem;
 }
 
@@ -88,14 +93,16 @@ body {
     padding:0.2rem 1rem;
     justify-content: center;
     line-height:1rem;
+    
 }
 
-.products a {
+.product a {
     text-decoration: none;
     color: black;
+    
 }
 
-.products a:hover {
+.product a:hover {
     color: orange;
 }
 
